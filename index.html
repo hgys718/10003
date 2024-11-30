@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rubbings of Astor</title>
+    
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="jquery.eraser.js"></script>
+</head>
+<body style="background-color:#181818">
+    <div class="tops">
+        <h1>Rubbings of Astor</h1>
+        <h1>10003</h1>
+    </div>
+    
+    <div class="theme-toggle">
+      <input type="checkbox" id="theme-switch" class="theme-switch-input">
+      <label for="theme-switch" class="theme-switch-label">
+          <span class="theme-switch-icon">☀️</span>
+          <span class="theme-switch-icon">🌙</span>
+      </label>
+  </div>
+
+    <div class="info">
+        <h3>Information</h3>
+        <br>
+        <hr>
+        <br>
+        <p>Rubbing is an impression of a design on brass or stone, 
+            made by rubbing on paper laid over it with colored wax, pencil, chalk, etc.
+            For this project, I've used crayon on US Letter sized paper. There are partial rubbings 
+            indicating the impressions could not fit all the information of US Letter sized paper.
+            There are full- rubbings indicating all of the impressions are rubbed on the US letter sized paper.
+            <br><br><b>Rub all the images!</b>
+        </p>
+        <br><br><br>
+        <p><b>Code: </b> HTML, CSS, Javascript</p>
+        <br>
+        <p><b>Creator</b>: Gyeong Su (Tony) Han</p> <br><br>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="popup" id="popup">
+        <div class="popup-content"></div>
+    </div>
+
+    <div class="map-container">
+        <div id="map" class="map"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
